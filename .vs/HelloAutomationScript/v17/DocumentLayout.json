@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\EnverPO\\source\\repos\\HelloAutomationScript\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9EF7F1A-E839-4741-BB7C-15BB6960A1F4}|HelloAutomationScript_1\\HelloAutomationScript_1.csproj|c:\\users\\enverpo\\source\\repos\\helloautomationscript\\helloautomationscript_1\\helloautomationscript_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9EF7F1A-E839-4741-BB7C-15BB6960A1F4}|HelloAutomationScript_1\\HelloAutomationScript_1.csproj|solutionrelative:helloautomationscript_1\\helloautomationscript_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{615BC1EA-1CE2-4994-9DFA-B799EF1F3382}|HelloAutomationScript{615BC1EA-1CE2-4994-9DFA-B799EF1F3382}|C:\\Users\\EnverPO\\source\\repos\\HelloAutomationScript\\HelloAutomationScript.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{615BC1EA-1CE2-4994-9DFA-B799EF1F3382}|HelloAutomationScript{615BC1EA-1CE2-4994-9DFA-B799EF1F3382}|solutionrelative:HelloAutomationScript.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HelloAutomationScript_1.cs",
+              "DocumentMoniker": "C:\\Users\\EnverPO\\source\\repos\\HelloAutomationScript\\HelloAutomationScript_1\\HelloAutomationScript_1.cs",
+              "RelativeDocumentMoniker": "HelloAutomationScript_1\\HelloAutomationScript_1.cs",
+              "ToolTip": "C:\\Users\\EnverPO\\source\\repos\\HelloAutomationScript\\HelloAutomationScript_1\\HelloAutomationScript_1.cs",
+              "RelativeToolTip": "HelloAutomationScript_1\\HelloAutomationScript_1.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAIwEUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T11:05:02.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HelloAutomationScript.xml",
+              "DocumentMoniker": "C:\\Users\\EnverPO\\source\\repos\\HelloAutomationScript\\HelloAutomationScript.xml",
+              "RelativeDocumentMoniker": "HelloAutomationScript.xml",
+              "ToolTip": "C:\\Users\\EnverPO\\source\\repos\\HelloAutomationScript\\HelloAutomationScript.xml",
+              "RelativeToolTip": "HelloAutomationScript.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-03-18T11:05:21.313Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
