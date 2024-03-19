@@ -52,22 +52,45 @@ DATE		VERSION		AUTHOR			COMMENTS
 namespace HelloAutomationScript_1
 {
 	using System;
-	using System.Collections.Generic;
-	using System.Globalization;
-	using System.Text;
 	using Skyline.DataMiner.Automation;
+	using Skyline.DataMiner.Utils.InteractiveAutomationScript;
 
 	/// <summary>
 	/// Represents a DataMiner Automation script.
 	/// </summary>
 	public class Script
 	{
+		private InteractiveController controller;
+
 		/// <summary>
 		/// The script entry point.
 		/// </summary>
 		/// <param name="engine">Link with SLAutomation process.</param>
-		public void Run(IEngine engine)
+		public void Run(Engine engine)
 		{
+			// DO NOT REMOVE THIS COMMENTED-OUT CODE OR THE SCRIPT WON'T RUN!
+			// DataMiner evaluates if the script needs to launch in interactive mode.
+			// This is determined by a simple string search looking for "engine.ShowUI" in the source code.
+			// However, because of the toolkit NuGet package, this string cannot be found here.
+			// So this comment is here as a workaround.
+			//// engine.ShowUI();
+
+			try
+			{
+				controller = new InteractiveController(engine);
+				UserView userView = new UserView(engine);
+				controller.Run(userView);
+			}
+			catch (Exception e)
+			{
+				engine.ExitFail("Something went wrong: " + e);
+			}
+
+			// var userModel = new UserModel();
+			// var userPresenter = new UserPresenter();
+			// var userView = new UserView(engine);
+
+			// controller.Run(userView);
 		}
 	}
 }
