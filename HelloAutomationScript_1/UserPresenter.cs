@@ -1,5 +1,4 @@
-﻿
-namespace HelloAutomationScript_1
+﻿namespace HelloAutomationScript_1
 {
     using System;
     using Skyline.DataMiner.ConnectorAPI.SkylineCommunications.HelloInterAppCalls.InterAppMessages.MyTable;
@@ -65,14 +64,15 @@ namespace HelloAutomationScript_1
 
         private void OnSubmitButtonPressed(object sender, EventArgs e)
         {
-            var description = String.Empty;
+            string description;
             try
             {
                 SaveToModel();
                 var response = view.Element.SendMessage(Model2IacMessage(), new TimeSpan(0, 0, 30));
 
                 description = ((CreateRowResponse)response).Description;
-            } catch (TimeoutException)
+            }
+            catch (TimeoutException)
             {
                 description = "Did not receive a response in time.";
             }
