@@ -2,4 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/HelloAutomationScript_1/bin/Debug/net462
+obj/
+bin/
+.vs/

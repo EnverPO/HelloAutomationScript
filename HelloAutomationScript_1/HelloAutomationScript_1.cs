@@ -78,19 +78,17 @@ namespace HelloAutomationScript_1
 			try
 			{
 				controller = new InteractiveController(engine);
-				UserView userView = new UserView(engine);
-				controller.Run(userView);
+
+				var model = new UserModel();
+				var view = new UserView(engine);
+				var presenter = new UserPresenter(view, model);
+
+				controller.Run(view);
 			}
 			catch (Exception e)
 			{
-				engine.ExitFail("Something went wrong: " + e);
+				engine.ExitFail("Something went wrong while setting up MPV: " + e);
 			}
-
-			// var userModel = new UserModel();
-			// var userPresenter = new UserPresenter();
-			// var userView = new UserView(engine);
-
-			// controller.Run(userView);
 		}
 	}
 }

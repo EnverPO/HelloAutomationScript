@@ -8,6 +8,12 @@
 	<Folder></Folder>
 
 	<Protocols>
+		<Protocol id="10">
+			<Description>FunctionDve</Description>
+			<Name>Skyline Communications Example InterApp Calls</Name>
+			<Version>Production</Version>
+			<DefaultElement />
+		</Protocol>
 	</Protocols>
 
 	<Memory>

@@ -1,7 +1,5 @@
 ﻿namespace HelloAutomationScript_1
 {
-    using System;
-
     public interface IUserModel
     {
         string Name { get; set; }
@@ -17,7 +15,5 @@
         string MotherMaidenName { get; set; }
 
         string CVC { get; set; }
-
-        DateTime TimeSent { get; set; }
     }
 }
